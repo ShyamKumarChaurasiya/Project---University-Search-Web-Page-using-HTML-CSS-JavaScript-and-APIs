@@ -1,0 +1,2 @@
+# Project---University-Search-Web-Page-using-HTML-CSS-JavaScript-and-APIs
+A University Search web application built using HTML, CSS, and JavaScript that fetches real-time data from public APIs to display universities based on user input country name. The project highlights API integration, asynchronous JavaScript (fetch/async-await), and dynamic rendering of search results in a clean, responsive UI.
