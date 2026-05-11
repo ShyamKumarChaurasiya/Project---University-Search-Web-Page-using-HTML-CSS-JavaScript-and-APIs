@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Search App</title>
+    <!-- Adding Poppins font for a professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Find Universities</h1>
+            <p>Discover colleges and universities around the world</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" class="country" placeholder="Enter country name (e.g. Nepal, India, Canada)...">
+            <button class="search">Search</button>
+        </div>
+
+        <div class="results-container">
+            <div id="result-count" class="result-count"></div>
+            <ul id="list">
+                <!-- Results will be injected here via JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Axios library for API requests -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
