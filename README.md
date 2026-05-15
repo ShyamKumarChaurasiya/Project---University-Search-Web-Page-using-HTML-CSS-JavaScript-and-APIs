@@ -3,7 +3,7 @@ A University Search web application built using HTML, CSS, and JavaScript that f
 
 Aurthor : Shyam Kuamr Chaurasiya
 
-Date : 15/05/2026
+Date : 16/05/2026
 
 Day : Friday
 
